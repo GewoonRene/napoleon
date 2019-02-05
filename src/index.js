@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './container/MainContainer/App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+console.log("%c I'm searching for an internship, You like my work? ", "color: red; font-weight: bold;");
+console.log('%c Contact me on my LinkedIn: René Huiberts! ', 'color: red; font-weight: bold;');
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
+ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
